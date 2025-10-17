@@ -37,7 +37,7 @@ app.get("/me", async (req, res, next) => {
       status: "success",
       user: {
         email: "talk2adeoluwa2310@gmail.com",
-        name: "Omotosho David Adeoluwa",
+        name: "Omotosho David A.",
         stack: "Node.js/Express",
       },
       timestamp: new Date().toISOString(),
