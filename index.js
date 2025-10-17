@@ -5,6 +5,8 @@ import cors from "cors";
 const app = express();
 app.use(cors());
 
+app.get("/", (req, res) => res.send("Server is live ✅"));
+
 app.get("/me", async (req, res, next) => {
   try {
     // Fetch a random cat fact
