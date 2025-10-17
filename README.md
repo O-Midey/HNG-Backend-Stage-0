@@ -22,4 +22,26 @@ A simple RESTful API that returns my profile information and a random cat fact.
   "fact": "Cats have five toes on their front paws, but only four on the back."
 }
 ```
-# HNG-Backend-Stage-0
+
+## 🚀 Setup Instructions
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/backend-wizards-stage0.git
+cd backend-wizards-stage0
+```
+
+2️⃣ Install dependencies
+
+```bash
+npm install
+
+```
+
+3️⃣ Run the server locally
+
+```bash
+npm start
+
+```
