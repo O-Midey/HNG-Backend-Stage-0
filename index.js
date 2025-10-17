@@ -5,7 +5,9 @@ import cors from "cors";
 const app = express();
 app.use(cors());
 
-app.get("/", (req, res) => res.send("Server is live ✅"));
+app.get("/", (req, res) =>
+  res.send("You should add /me endpoint to see user info ✅")
+);
 
 app.get("/me", async (req, res, next) => {
   try {
